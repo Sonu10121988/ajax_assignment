@@ -1,0 +1,45 @@
+     
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /* style the main container */
+        #container{
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+        }
+        /* style the box-container in all items */
+        .box_container{
+            width: 35%;
+            height: 240px;
+            border: 1px solid black;
+            border-radius: 7px;
+            text-align: center;
+           padding-top: 40px;
+           background-color: rgb(142, 236, 205);
+           box-shadow: 2px 2px 2px 4px;
+
+        }
+        #showCD{
+            line-height: 2rem;
+            font-size: 25px;
+        }
+        /* Style the input type button */
+        input{
+            width: 70px;
+            height: 30px;
+            margin-top: 30px;
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+        /* When you hover input type button it's background-color change */
+        input:hover{
+            background-color: lightpink;
+            
+        }
+    
