@@ -19,14 +19,17 @@
             border: 1px solid black;
             border-radius: 7px;
             text-align: center;
-           padding-top: 40px;
            background-color: rgb(142, 236, 205);
            box-shadow: 2px 2px 2px 4px;
 
         }
+        .heading{
+            text-align: center;
+            margin: 20px;
+        }
         #showCD{
-            line-height: 2rem;
-            font-size: 25px;
+            line-height: 1.5rem;
+            font-size: 20px;
         }
         /* Style the input type button */
         input{
